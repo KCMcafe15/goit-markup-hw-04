@@ -142,6 +142,9 @@ button {
 
 .hero {
     background-color: var(--navybluemodal);
+    background: linear-gradient(50deg, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),  
+                url('/images/hero-bg-pic.jfif') no-repeat center;
+    background-size: cover;
     padding: 188px 0;
 }
 
@@ -211,6 +214,12 @@ button {
     letter-spacing: 0.32px;
 }
 
+.icon{
+    height: 112px;
+    width: 100%;
+    border-radius: 4px;
+}
+
 .services {
     padding-bottom: 120px;
 }
@@ -276,6 +285,68 @@ button {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
+}
+
+.trailing-icons-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.t-icons-list-item{
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ocean);
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.t-icons-list-item:hover{
+    background-color: var(--green);
+}
+
+.customers{
+    padding: 120px 0;
+}
+
+.customers-list-container {
+    width: 1128px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 24px;
+    margin-top: 72px;
+}
+
+.customers-list-item{
+    display: flex;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate);
+    fill: var(--lightslate);
+}
+
+.customers-list-item:hover{
+    fill: var(--ocean);
+    border-radius: 4px;
+    border: 1px solid var(--ocean);
 }
 
 /*--Portfolio--*/
@@ -383,7 +454,19 @@ button {
 .footer {
     background-color: var(--navyblue);
     color: var(--white);
-    padding: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    height: 312px;
+    width: 100%;
+    padding-top: 100px;
+}
+.f-container{
+    width: 1158px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    gap: 120px;
 }
 
 .footer-container{
@@ -411,4 +494,49 @@ button {
     text-transform: uppercase;
 }
 
+/*--Social Media-- */
+.footer-social-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-social-header{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+    color: var(--white);
+}
+
+.sm-icons-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.sm-icons-list-item {
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ocean);
+    border-radius: 100px;
+    padding: 8px;
+}
+
+.sm-icons-list-item:hover {
+    background-color: var(--green);
+}
+
+.sm-icons-header{
+    display: flex;
+}
 /*--End of Footer-*/
