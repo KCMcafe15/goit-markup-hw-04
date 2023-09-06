@@ -143,7 +143,7 @@ button {
 .hero {
     background-color: var(--navybluemodal);
     background: linear-gradient(50deg, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),  
-                url('/images/hero-bg-pic.jfif') no-repeat center;
+                url('../images/hero-bg-pic.jfif') no-repeat center;
     background-size: cover;
     padding: 188px 0;
 }
