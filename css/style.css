@@ -222,7 +222,6 @@ button {
     border-radius: 4px;
     background: var(--cloud);
     padding: 24px 100px;
-    margin-bottom: 8px;
 }
 
 .features-icon .icon{
@@ -237,7 +236,7 @@ button {
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
 
 .feature-description {
