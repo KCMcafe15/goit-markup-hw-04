@@ -104,10 +104,6 @@ button {
     position: relative;
 }
 
-/* .nav-list-item:hover {
-    position: relative;
-} */
-
 .nav-list-item-link {
     color: var(--navyblue);
     font-family: Roboto;
